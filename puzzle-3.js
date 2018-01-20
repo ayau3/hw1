@@ -6,3 +6,9 @@ function move(spaces, direction) {
   }
 }
 move(2, down)
+var color = getColor
+move(3, down)
+move(2, right)
+setColor(color)
+move(2, right)
+up
