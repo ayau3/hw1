@@ -1,4 +1,4 @@
-function move(direction) {
+function moveNine(direction) {
   var steps = 0
   while (steps < 9) {
     direction
@@ -6,7 +6,7 @@ function move(direction) {
     steps = steps + 1
   }
 }
-move(down)
-move(right)
-move(up)
-move(left)
+moveNine(down)
+moveNine(right)
+moveNine(up)
+moveNine(left)
