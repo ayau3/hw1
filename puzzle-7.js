@@ -1,11 +1,17 @@
-function redMove(spaces, direction) {
-  if (getColor == "red")
-    {
-  var steps = 0
-  while (steps < spaces) {
+function redMove(direction) {
+  while (getColor != "red") {
     direction
-    steps = steps + 1
   }
+  right
 }
 
-left
+redMove(down)
+right
+redMove(up)
+right
+redMove(down)
+right
+redMove(up)
+right
+redMove(down)
+
