@@ -1,4 +1,4 @@
-function move(direction) {
+function moveSeven(direction) {
   var steps = 0
   while (steps < 7) {
     direction
@@ -7,12 +7,12 @@ function move(direction) {
   right
 }
 down
-move(down)
+moveSeven(down)
 right
-move(up)
+moveSeven(up)
 right
-move(down)
+moveSeven(down)
 right
-move(up)
+moveSeven(up)
 right
-move(down)
+moveSeven(down)
