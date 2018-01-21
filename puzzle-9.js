@@ -1,12 +1,12 @@
-function moveNine(direction) {
-  var steps = 0
-  while (steps < 9) {
+function move(spaces, direction) {
+  var count = 0
+  while (count < spaces) {
     direction
     setColor("red")
-    steps = steps + 1
+    count = count + 1
   }
 }
-moveNine(down)
-moveNine(right)
-moveNine(up)
-moveNine(left)
+move(4, down)
+move(8, right)
+move(4, up)
+move(8, left)
