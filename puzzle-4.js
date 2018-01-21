@@ -1,8 +1,8 @@
 function move(spaces, direction) {
-  var steps = 0
-  while (steps < spaces) {
+  var count = 0
+  while (count < spaces) {
     direction
-    steps = steps + 1
+    count = count + 1
   }
 }
 function getSet {
