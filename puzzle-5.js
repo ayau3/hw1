@@ -3,6 +3,7 @@ function colorMove {
     up
     right
     right
+  }
   else {
     down
     right
@@ -14,5 +15,5 @@ right
 right
 colorMove
 colorMove
-ColorMove
+colorMove
 right
